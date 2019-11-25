@@ -192,7 +192,6 @@ if [ "$_efi" != "" ]; then
 	mkfs.fat -F32 $_efi && mkdir /mnt/boot && mount $_efi /mnt/boot
 fi
 
-set morrorlist br (opcional)
 echo -e "${_g}===> Setando mirrorlist BR${_o}"
 wget "https://raw.githubusercontent.com/leoarch/arch-install/master/mirror-br" -O /etc/pacman.d/mirrorlist 2>/dev/null
 
