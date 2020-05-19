@@ -1,2 +1,2 @@
 # arch
-# Scriptrt para a instalação automatizada do linux arch  
+# Scriptrt para a instalação automatizada do Arch Linux   
